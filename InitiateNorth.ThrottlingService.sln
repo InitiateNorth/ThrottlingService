@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitiateNorth.ThrottlingService", "InitiateNorth.ThrottlingService\InitiateNorth.ThrottlingService.csproj", "{40FE968B-600C-4798-8A9F-62125756E5D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FE968B-600C-4798-8A9F-62125756E5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FE968B-600C-4798-8A9F-62125756E5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FE968B-600C-4798-8A9F-62125756E5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FE968B-600C-4798-8A9F-62125756E5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA895605-6F64-44B0-9DEB-4E6986B3391C}
+	EndGlobalSection
+EndGlobal
