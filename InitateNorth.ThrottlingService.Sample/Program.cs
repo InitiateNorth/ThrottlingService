@@ -7,9 +7,10 @@
     {
         public static void Main(string[] args)
         {
-            var numberOfAllowedRequests = 10;
-            var perNumberOfMinutes = 1;
-            var callerIdentity = "our-friendly-client";
+
+            const int numberOfAllowedRequests = 10;
+            const int perNumberOfMinutes = 1;
+            const string callerIdentity = "our-friendly-client";
 
             using (var service = new ThrottlingService(numberOfAllowedRequests, perNumberOfMinutes))
             {
@@ -23,6 +24,7 @@
                 // Snooze while the window moves on...
                 Thread.Sleep(TimeSpan.FromMinutes(perNumberOfMinutes));
 
+                // Loop over and make more requests.
                 for (var i = numberOfAllowedRequests + 2; i <= numberOfAllowedRequests + numberOfAllowedRequests + 2; i++)
                 {
                     var isThrottled = service.IsThrottled(callerIdentity);
