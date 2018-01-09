@@ -1,14 +1,14 @@
 ﻿namespace InitiateNorth.ThrottlingService
 {
-    using System.Security.Cryptography;
-    using System.Runtime.Caching;
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Runtime.Caching;
+    using System.Security.Cryptography;
     using System.Text;
     using System.Threading;
 
-    public class ThrottlingService : IThrottlingService, IDisposable
+    public class ThrottlingService : IThrottlingService
     {
         private const int SingleRequest = 1;
 

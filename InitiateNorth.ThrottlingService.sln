@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitiateNorth.ThrottlingService", "InitiateNorth.ThrottlingService\InitiateNorth.ThrottlingService.csproj", "{40FE968B-600C-4798-8A9F-62125756E5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitiateNorth.ThrottlingService.Sample", "InitateNorth.ThrottlingService.Sample\InitiateNorth.ThrottlingService.Sample.csproj", "{409FFEC4-4408-48A0-8062-A0B40D73CF6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40FE968B-600C-4798-8A9F-62125756E5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40FE968B-600C-4798-8A9F-62125756E5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40FE968B-600C-4798-8A9F-62125756E5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409FFEC4-4408-48A0-8062-A0B40D73CF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409FFEC4-4408-48A0-8062-A0B40D73CF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409FFEC4-4408-48A0-8062-A0B40D73CF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409FFEC4-4408-48A0-8062-A0B40D73CF6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

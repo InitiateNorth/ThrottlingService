@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InitiateNorth.ThrottlingService")]
+[assembly: AssemblyTitle("InitateNorth.ThrottlingService.Sample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("InitiateNorth.ThrottlingService")]
+[assembly: AssemblyProduct("InitateNorth.ThrottlingService.Sample")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("40fe968b-600c-4798-8a9f-62125756e5d4")]
+[assembly: Guid("409ffec4-4408-48a0-8062-a0b40d73cf6d")]
 
 // Version information for an assembly consists of the following four values:
 //

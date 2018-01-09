@@ -1,6 +1,8 @@
 ﻿namespace InitiateNorth.ThrottlingService
 {
-    public interface IThrottlingService
+    using System;
+
+    public interface IThrottlingService : IDisposable
     {
         int PeriodInMinutes { get; }
 
